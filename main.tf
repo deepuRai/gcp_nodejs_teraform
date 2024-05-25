@@ -6,6 +6,7 @@ resource "random_id" "bucket_prefix" {
 
 resource "google_storage_bucket" "deepak_test_bucket" {
   name          = "test-new-bucket"
+  project       = "deepak_nodejs_github_terraform"
   location      = "US"
   storage_class = "COLDLINE"
 
