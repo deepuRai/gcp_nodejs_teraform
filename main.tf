@@ -6,7 +6,7 @@ resource "random_id" "bucket_prefix" {
 
 resource "google_storage_bucket" "deepak_test_bucket" {
   name          = "test-new-bucket"
-  project       = "My First Project"
+  project       = "	sunlit-aura-424417-v0"
   location      = "US"
   storage_class = "COLDLINE"
 
