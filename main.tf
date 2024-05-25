@@ -4,7 +4,7 @@ resource "random_id" "bucket_prefix" {
   byte_length = 8
 }
 
-resource "google_storage_bucket" "deepak_test_bucket" {
+resource "google_storage_bucket" "static" {
   name          = "test-new-bucket"
   project       = "	sunlit-aura-424417-v0"
   location      = "US"
